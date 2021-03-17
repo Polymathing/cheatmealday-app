@@ -1,0 +1,60 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+    background-color: #3f1212;
+    text-align: center;
+  }
+  
+  header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .hours {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  .text {
+    font-weight: 400;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+ .Show {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;  
+ }
