@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading.jsx";
 import * as List from "./Lists";
+import Footer from "./Footer";
+import Card from "./Card";
 
+// Choose Random Cheat Meal
 const cheatMeals = List.cheatMeals;
+
+const randomChoice = cheatMeals[Math.floor(Math.random() * cheatMeals.length)]
 
 const GetMeal = () => {
 
-    const [meal, setMeal] = useState("");
+    const [meal, setMeal] = useState({name: "", img: ""});
     const [done, setDone] = useState(false);
     const [loading, setLoading] = useState(false);
     const [loadingText, setLoadingText] = useState("")
@@ -20,12 +25,12 @@ const GetMeal = () => {
         setDone(undefined);
 
         setTimeout(() => {
-            setMeal(cheatMeals[Math.floor(Math.random() * cheatMeals.length)]);
+            setMeal(randomChoice);
             setLoading(true);
             setTimeout(() => {
                 setDone(true);
-            }, 4000)
-        }, 4000)
+            }, 1)
+        }, 1)
     };
 
 
@@ -37,9 +42,12 @@ const GetMeal = () => {
                     <Loading loading={loading} />
                 ) : (
                     <div>
-                    <h1 style={{ marginTop: "6rem", color: "white", fontSize: "6rem", fontFamily: 'Dancing Script, cursive' }}>{meal}</h1>
-                    <div style={{fontSize: "0.5rem", color: "white", position: "relative", margin: "70px", width: "100%", textAlign: "center"}}>
-                    <h1>Now stop overthinking and just eat! 😋</h1>
+                        <Card
+                            name={meal.name}
+                            img={meal.img}
+                        />
+                    <div>
+                    <Footer/>
                     </div>
                     </div>
                     
