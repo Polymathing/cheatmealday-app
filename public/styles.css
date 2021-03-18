@@ -86,6 +86,7 @@
     height: 300px;
     width: 50%;
     box-shadow: 0 2px 5px #ccc;
+<<<<<<< HEAD
     text-align: center;
   }
 
@@ -130,3 +131,42 @@
   }
 
  /* Test */ 
+=======
+    padding: 20px;
+    margin: 10px;
+    text-align: center;  
+ }
+
+ /* button */
+
+ .btn-main {
+   border-radius: 30px;
+   border-style: none;
+   width: 20%;
+   padding: 20px;
+   font-size: 20px;
+ }
+
+ .btn-main:hover {
+  background-color: #FF113F;
+  border: 2px groove white;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+ }
+
+ /* Main Heading */
+
+ .main-heading {
+   color: #fff;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ img {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   width: 15%;
+  }
+>>>>>>> 061107ace90dcfaec1617e0b93be352e125609c7
