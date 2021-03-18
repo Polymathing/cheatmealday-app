@@ -23,8 +23,8 @@ function App() {
           <GetMeal/>
         ) : (
           <div>
-            <h1 style={{color: "white"}}>Let me make this important decision for you...</h1>
-            <button onClick={start}>{text}</button>
+            <h1 className="main-heading">Let me make this important decision for you...</h1>
+            <button className="btn-main" onClick={start}>{text}</button>
           </div>
         )}
         
