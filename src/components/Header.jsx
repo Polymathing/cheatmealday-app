@@ -1,26 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import GetMeal from "./GetMeal";
 
 function Header() {
-    
-    var date = new Date();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
-    var text = ""
-    
-    if (hours > 0 && hours < 12) {
-        text = "Good Morning, Maicon."
-    }
-    else if (hours < 18 ){
-        text = "Good Afternoon, Maicon."
-    }
-    else {
-        text = "Good night, Maicon."
-    }
+    const [ready, setReady] = useState(false)
+    const [text, setText] = useState("DECIDE FOR ME")
 
-    return <header>
-    <h1 className="hours">{hours}:{minutes}</h1>
-    <h1 className="text">{text}</h1>
-    <h3> The cheatmeal of the day is...</h3>
+    function start() {
+        setReady(!ready)
+        setText("Hello world")
+      }
+
+    return <header>  
+        {ready ? (
+          <GetMeal/>
+        ) : (
+          <div className="main-header-block">
+            <h1 className="main-heading">Cheat Meal Picker</h1>
+            <button className="btn-main" onClick={start}>{text}</button>
+          </div>
+        )}
     </header>
 }
 
