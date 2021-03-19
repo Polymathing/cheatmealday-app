@@ -18,8 +18,7 @@ header {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin: auto;
-  padding: 10px 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px 10px; 
 }
 
 header h1 {
@@ -73,8 +72,8 @@ footer p {
 
  img {
    position: absolute;
-   top: 20px;
-   left: 20px;
+   top: 25px;
+   left: 40px;
    width: 10%;
   }
 
@@ -107,6 +106,7 @@ footer p {
   .circle-img {
     border-radius: 50%;
     border: 7px solid #fff;
+    box-shadow:  0 0 12px 10px #3f1212;
     width: 350px;
     height: 350px;
     position: relative;
