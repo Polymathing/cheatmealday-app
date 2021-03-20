@@ -37,59 +37,63 @@ footer {
 footer p {
   color: #ccc;
 }
+/* Main Page Styling */
 
+/* .main-header-block {
+  background-color: #fff;
+  width: 70%;
+  margin: 8% auto;
+  border-radius: 30px;
+} */
+
+ /* Main Heading */
+
+ .main-heading {
+  color: #fff;
+  font-size: 6rem;
+  text-shadow: 0 0 10px #757474;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+}
+
+/* Main Tagline */
+
+.main-tagline {
+  color: #fff;
+  text-shadow: 0 0 10px #757474;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
 
  /* button */
 
  .btn-main {
-  border-radius: 30px;
+  border-radius: 35px;
   border-style: none;
   width: 30%;
   padding: 20px;
   font-size: 20px;
-  background-color: #FEDE00;
+  background-color: #fff;
   color: #3f1212;
   font-weight: 800;
   margin-bottom: 20px;
 }
 
 .btn-main:hover {
-  border: 2px groove white;
+  border: 5px solid white;
   font-family: 'Raleway', sans-serif;
   color: #FFF;
   background-color: #3f1212;
  }
 
- /* Main Heading */
-
- .main-heading {
-  color: #3f1212;
-  margin-top: 170px;
-  margin-bottom: 10px;
-  font-size: 72px;
-  font-family: 'Raleway', sans-serif;
-}
-
- img {
-   position: absolute;
-   top: 25px;
-   left: 40px;
-   width: 10%;
-  }
-
-
   /* TEST */
-
-  .main-header-block {
-    background-color: #fff;
-    width: 70%;
-    margin: 8% auto;
-    border-radius: 30px;
-  }
 
   .output-heading {
     color: #3f1212;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
   }
 
@@ -102,10 +106,6 @@ footer p {
     background-color: #fff;
     height: 650px;
     width: 80%;
-    background-color: #81ecec;
-    margin: 50px 0;
-    height: 300px;
-    width: 50%;
     box-shadow: 0 2px 5px #ccc;
     text-align: center;
   }
@@ -134,19 +134,6 @@ footer p {
     left: 240px;
   }
 
-  /* .top {
-    border-radius: 25px 25px 0 0;
-    height: 100px;
-    width: 100%;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-  } */
-
- 
-
   .card img {
     margin: 30px 20px 0 0;
   }
@@ -167,18 +154,10 @@ footer p {
   }
 
 
- /* Main Heading */
-
- .main-heading {
-   color: #fff;
-   margin-top: 100px;
-   margin-bottom: 20px;
-   font-family: 'Raleway', sans-serif;
- }
-
  img {
    position: absolute;
-   top: 30px;
+   top: 50px;
    left: 30px;
-   width: 15%;
+   width: 5%;
   }
+  

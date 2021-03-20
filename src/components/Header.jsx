@@ -16,6 +16,7 @@ function Header() {
         ) : (
           <div className="main-header-block">
             <h1 className="main-heading">Cheat Meal Picker</h1>
+            <p className="main-tagline">We make this important decision for you!</p>
             <button className="btn-main" onClick={start}>{text}</button>
           </div>
         )}
