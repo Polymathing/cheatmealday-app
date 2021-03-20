@@ -4,7 +4,7 @@ function Footer() {
     var year = new Date().getFullYear();
 
     return <footer>
-    <p style={{marginTop: "170px", position: "relative", left: "-100px"}}>Copyright {year}</p>
+    <p>Copyright {year}</p>
     </footer>
 }
 

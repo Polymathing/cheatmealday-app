@@ -3,7 +3,7 @@ import GetMeal from "./GetMeal";
 
 function Header() {
     const [ready, setReady] = useState(false)
-    const [text, setText] = useState("DECIDE MY MEAL")
+    const [text, setText] = useState("GET MY MEAL")
 
     function start() {
         setReady(!ready)
