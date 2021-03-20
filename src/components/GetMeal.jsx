@@ -37,7 +37,7 @@ const GetMeal = () => {
     return (
         <div>
             <div>
-                {done && <h1 style={{ color: "white", fontSize: "3rem", textAlign: "center" }}>Today you are having...</h1>}
+                {done && <h1 className="output-heading">Meal of the day</h1>}
                 {!done ? (
                     <Loading loading={loading} />
                 ) : (
