@@ -37,7 +37,7 @@ const GetMeal = () => {
     return (
         <div>
             <div>
-                {done && <div><p className="output-main-heading">Cheat Meal Picker</p><h1 className="output-heading">Meal of the day</h1></div>}
+                {done && <div><p className="output-main-heading">Cheat Meal Picker</p><p className="output-heading">Meal of the day</p></div>}
                 {!done ? (
                     <Loading loading={loading} />
                 ) : (
