@@ -71,10 +71,7 @@ footer p {
   font-style: italic;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
-<<<<<<< HEAD
   margin-bottom: 75px
-=======
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
 }
 
  /* button */
@@ -96,11 +93,7 @@ footer p {
   border: 5px solid white;
   font-family: 'Raleway', sans-serif;
   color: #FFF;
-<<<<<<< HEAD
   background-color: #000000;
-=======
-  background-color: #3f1212;
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
  }
 
   /* TEST */
@@ -171,21 +164,14 @@ footer p {
   }
 
   .bottom p{
-<<<<<<< HEAD
     color: #888888;
     margin-top: 50px";
     text-align: center;
     font-size: 0.9rem;
-=======
-    color: #3f1212;
-    text-align: center;
-    font-size: 1.2rem;
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
   }
 
-<<<<<<< HEAD
   .footer-p {
     margin: "50px";
     font-size: "16px";
@@ -193,9 +179,6 @@ footer p {
     text-align: "center" 
   }
   
-=======
-
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
  img {
    position: absolute;
    top: 50px;

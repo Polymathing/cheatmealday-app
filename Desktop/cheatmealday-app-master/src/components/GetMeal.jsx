@@ -46,12 +46,6 @@ const GetMeal = () => {
                             name={meal.name}
                             img={meal.img}
                         />
-<<<<<<< HEAD
-=======
-                    <div>
-                    <Footer/>
-                    </div>
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
                     </div>
                     
                 )}
