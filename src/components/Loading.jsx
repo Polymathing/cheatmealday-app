@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "react-lottie";
 import * as loading from "./loading.json";
 import * as done from "./done.json";
+import {Helmet} from "react-helmet";
 
 const defaultOptions = {
     loop: true,
@@ -24,11 +25,12 @@ const defaultOptions = {
  const Loading = ({loading}) => {
 
         return (
-          <div style={{marginTop: '6rem'}}>
+          <div className="loading-img">
+          <Helmet bodyAttributes={{style: 'background-color : #1f1e1e'}}/> 
             {!loading ? (
               <Lottie options={defaultOptions} height={350} width={350} />
             ) : (
-              <Lottie options={defaultOptions2} height={350} width={350} />
+              <div><Lottie options={defaultOptions2} height={350} width={350} /></div>
             )}
           </div>
         )

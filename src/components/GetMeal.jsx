@@ -37,7 +37,9 @@ const GetMeal = () => {
     return (
         <div>
             <div>
-                {done && <div><p className="output-main-heading">Cheat Meal Picker</p><h1 className="output-heading">Meal of the day</h1></div>}
+                {done && <div>
+                <div></div>
+                <h1 className="output-heading">Meal of the day</h1></div>}
                 {!done ? (
                     <Loading loading={loading} />
                 ) : (
@@ -46,18 +48,14 @@ const GetMeal = () => {
                             name={meal.name}
                             img={meal.img}
                         />
-<<<<<<< HEAD
-=======
-                    <div>
-                    <Footer/>
-                    </div>
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
                     </div>
                     
                 )}
             </div>
-            {!done && !loading && <h1 style={{ fontSize: "16px", color: "white" }}>Checking your mood...</h1>}
-            {loading && !done && <h1 style={{ fontSize: "16px", color: "white" }}>Preparing your meal...</h1>}
+            <div className="loading-p">
+            {!done && !loading && <p>Checking your mood...</p>}
+            {loading && !done && <p>Packing your meal...</p>}
+            </div>
             
         </div>
 

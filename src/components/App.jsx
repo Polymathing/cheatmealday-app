@@ -10,10 +10,6 @@ function App() {
     return(
       <div>
         <Header/>
-<<<<<<< HEAD
-=======
-        {/* <Footer/> */}
->>>>>>> 65dbe66467b1c46500f1d286016e2ada495af6fd
       </div>
     )
     

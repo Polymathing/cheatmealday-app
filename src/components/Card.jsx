@@ -8,7 +8,7 @@ function Card(props) {
       <h2 className="name">{props.name}</h2>
       </div>
       <div className="bottom">
-        <h1>Delicious!</h1>
+        <h2>Delicious!</h2>
         <p>Now stop overthink and just EAT!</p>
       </div>
     </div>
