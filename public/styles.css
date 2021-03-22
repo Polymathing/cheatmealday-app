@@ -14,7 +14,6 @@
 }
 
 /* Body styling applied to all pages across website */
-<<<<<<< HEAD
 
 body {
   background-color: #FEEA53;
@@ -35,20 +34,6 @@ body {
   width: 5%;
 }
 
-=======
-
-body {
-  background-color: #FEEA53;
-}
-
-/* This style will only effect website logo/Icon */
-body>img {
-  position: absolute;
-  top: 30px;
-  left: 47%;
-  width: 5%;
-}
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
 
  /* ==== Main Page Styling Starts Here ===*/
 
@@ -57,22 +42,14 @@ body>img {
   font-size: 4rem;
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-<<<<<<< HEAD
   margin: 200px 0 20px;
-=======
-  margin: 150px 0 20px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
 }
 
 .main-tagline {
   color: #000400;
   font-style: italic;
-<<<<<<< HEAD
   font-size: 1rem;
   margin: 20px;
-=======
-  font-size: 20px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -85,11 +62,7 @@ body>img {
   background-color: #000000;
   color: #fff;
   font-weight: 800;
-<<<<<<< HEAD
   margin-top: 120px;
-=======
-  margin-top: 150px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -100,7 +73,6 @@ body>img {
   background-color: #000000;
  }
 
-<<<<<<< HEAD
  /* Loading */
 
 .loading-img {
@@ -114,8 +86,6 @@ body>img {
 }
 
 
-=======
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
 /* === Output Page Styling Goes Below === */
 
   .output-main-heading {
@@ -128,17 +98,10 @@ body>img {
 
   .output-heading {
     color: #3f1212;
-<<<<<<< HEAD
     font-size: 3.5rem;
     text-align: center;
     font-family: "Gagalin-Regular";
     margin: 30px 0 30px;
-=======
-    font-size: 4rem;
-    text-align: center;
-    font-family: "Gagalin-Regular";
-    margin: 10px 0 30px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
   }
 
   .card {
@@ -146,11 +109,7 @@ body>img {
     position: relative;
     left: 30%;
     background-color: #fff;
-<<<<<<< HEAD
     height: 450px;
-=======
-    height: 350px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
     width: 40%;
     box-shadow: 0 2px 5px #ccc;
     text-align: center;
@@ -160,13 +119,8 @@ body>img {
     border-radius: 50%;
     border: 2px solid #fff;
     box-shadow:  0 0 12px 5px #3f1212;
-<<<<<<< HEAD
     width: 300px;
     height: 300px;
-=======
-    width: 200px;
-    height: 200px;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
     margin: 5% 0 0;
   }
   
@@ -178,7 +132,6 @@ body>img {
     padding: 10px;
     font-family: Raleway, sans-serif;
     border-radius: 70px;
-<<<<<<< HEAD
     width: 45%;
     position: absolute;
     top: 63%;
@@ -191,19 +144,6 @@ body>img {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 2rem;
-=======
-    width: 40%;
-    position: absolute;
-    top: 55%;
-    left: 30%;
-  }
-
-  .bottom h1{
-    margin: 5% 0 0;
-    color: #3f1212;
-    text-align: center;
-    font-size: 1.5rem;
->>>>>>> d3a34908653fbfe983cfe86ffe131c1f992b6367
   }
 
   .bottom p{
