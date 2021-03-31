@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading.jsx";
 import * as List from "./Lists";
-import Footer from "./Footer";
 import Card from "./Card";
 
 // Choose Random Cheat Meal
@@ -11,10 +10,9 @@ const randomChoice = cheatMeals[Math.floor(Math.random() * cheatMeals.length)]
 
 const GetMeal = () => {
 
-    const [meal, setMeal] = useState({name: "", img: ""});
+    const [meal, setMeal] = useState({ name: "", img: "" });
     const [done, setDone] = useState(false);
     const [loading, setLoading] = useState(false);
-    const [loadingText, setLoadingText] = useState("")
 
     useEffect(() => {
         getMeal();
@@ -29,15 +27,19 @@ const GetMeal = () => {
             setLoading(true);
             setTimeout(() => {
                 setDone(true);
-            }, 1)
-        }, 1)
+            }, 6)
+        }, 6)
     };
 
 
     return (
         <div>
             <div>
-                {done && <div><p className="output-main-heading">Cheat Meal Picker</p><p className="output-heading">Meal of the day</p></div>}
+
+                {done && <div>
+                    <div></div>
+                    <h1 className="output-heading">Meal of the day</h1></div>}
+
                 {!done ? (
                     <Loading loading={loading} />
                 ) : (
@@ -46,16 +48,15 @@ const GetMeal = () => {
                             name={meal.name}
                             img={meal.img}
                         />
-                    <div>
-                    <Footer/>
                     </div>
-                    </div>
-                    
+
                 )}
             </div>
-            {!done && !loading && <h1 style={{ fontSize: "16px", color: "white" }}>Checking your mood...</h1>}
-            {loading && !done && <h1 style={{ fontSize: "16px", color: "white" }}>Preparing your meal...</h1>}
-            
+            <div className="loading-p">
+                {!done && !loading && <p>Checking your mood...</p>}
+                {loading && !done && <p>Packing your meal...</p>}
+            </div>
+
         </div>
 
     )
